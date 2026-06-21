@@ -1,0 +1,119 @@
+2026-06-21 14:41:56.921 [main] INFO  ru.university.montecarlo.Main - Application started
+2026-06-21 14:41:57.116 [main] INFO  ru.university.montecarlo.Main - Configuration loaded: AppConfig{figureType='DEBO', randomSeed=42, experimentSizes=[1000, 10000, 100000, 1000000, 10000000], geometry=GeometryConfig{dx=4.0, dy=0.0, ex=7.0, ey=8.0, bx=15.0, by=8.0, ox=15.0, oy=0.0, circleCenterX=15.0, circleCenterY=0.0, radius=8.0}, logging=LoggingConfig{level='INFO', file='logs/app.log'}, output=OutputConfig{exportCsv=true, csvPath='docs/experiment-results.csv'}}
+2026-06-21 14:41:57.121 [main] INFO  r.u.m.experiment.ExperimentRunner - Starting experiment series for 5 sample sizes
+2026-06-21 14:41:57.121 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000
+2026-06-21 14:41:57.124 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000, area=32.912, relError=0.3452365641199426, timeMs=1.364
+2026-06-21 14:41:57.124 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000
+2026-06-21 14:41:57.127 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000, area=32.0848, relError=0.36169318523564453, timeMs=1.7467
+2026-06-21 14:41:57.127 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=100000
+2026-06-21 14:41:57.133 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=100000, area=31.77944, relError=0.36776812941346215, timeMs=6.1857
+2026-06-21 14:41:57.133 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000000
+2026-06-21 14:41:57.154 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000000, area=32.026984, relError=0.3628433980093697, timeMs=19.9774
+2026-06-21 14:41:57.154 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000000
+2026-06-21 14:41:57.310 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000000, area=31.9962016, relError=0.3634557943993987, timeMs=157.1322
+2026-06-21 14:41:57.310 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment series completed. Total results: 5
+2026-06-21 14:41:57.317 [main] ERROR ru.university.montecarlo.Main - Failed to load configuration file
+java.io.FileNotFoundException: docs\experiment-results.csv (Системе не удается найти указанный путь)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:120)
+	at java.base/java.io.FileWriter.<init>(FileWriter.java:67)
+	at ru.university.montecarlo.io.CsvExporter.export(CsvExporter.java:12)
+	at ru.university.montecarlo.Main.main(Main.java:53)
+2026-06-21 14:46:40.011 [main] INFO  ru.university.montecarlo.Main - Application started
+2026-06-21 14:46:40.194 [main] INFO  ru.university.montecarlo.Main - Configuration loaded: AppConfig{figureType='DEBO', randomSeed=42, experimentSizes=[1000, 10000, 100000, 1000000, 10000000], geometry=GeometryConfig{dx=4.0, dy=0.0, ex=7.0, ey=8.0, bx=15.0, by=8.0, ox=15.0, oy=0.0, circleCenterX=15.0, circleCenterY=0.0, radius=8.0}, logging=LoggingConfig{level='INFO', file='logs/app.log'}, output=OutputConfig{exportCsv=true, csvPath='docs/experiment-results.csv'}}
+2026-06-21 14:46:40.198 [main] INFO  r.u.m.experiment.ExperimentRunner - Starting experiment series for 5 sample sizes
+2026-06-21 14:46:40.198 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000
+2026-06-21 14:46:40.200 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000, area=32.912, relError=0.3452365641199426, timeMs=1.0042
+2026-06-21 14:46:40.201 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000
+2026-06-21 14:46:40.202 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000, area=32.0848, relError=0.36169318523564453, timeMs=1.4779
+2026-06-21 14:46:40.202 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=100000
+2026-06-21 14:46:40.209 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=100000, area=31.77944, relError=0.36776812941346215, timeMs=6.3541
+2026-06-21 14:46:40.209 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000000
+2026-06-21 14:46:40.228 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000000, area=32.026984, relError=0.3628433980093697, timeMs=19.4576
+2026-06-21 14:46:40.229 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000000
+2026-06-21 14:46:40.389 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000000, area=31.9962016, relError=0.3634557943993987, timeMs=160.0829
+2026-06-21 14:46:40.390 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment series completed. Total results: 5
+2026-06-21 14:46:40.394 [main] INFO  ru.university.montecarlo.Main - Results exported to CSV: docs/experiment-results.csv
+2026-06-21 14:46:40.394 [main] INFO  ru.university.montecarlo.Main - Application finished successfully
+2026-06-21 14:51:10.714 [main] INFO  ru.university.montecarlo.Main - Application started
+2026-06-21 14:51:10.887 [main] INFO  ru.university.montecarlo.Main - Configuration loaded: AppConfig{figureType='DEBO', randomSeed=42, experimentSizes=[1000, 10000, 100000, 1000000, 10000000], geometry=GeometryConfig{dx=4.0, dy=0.0, ex=7.0, ey=8.0, bx=15.0, by=8.0, ox=15.0, oy=0.0, circleCenterX=7.0, circleCenterY=0.0, radius=8.0}, logging=LoggingConfig{level='INFO', file='logs/app.log'}, output=OutputConfig{exportCsv=true, csvPath='docs/experiment-results.csv'}}
+2026-06-21 14:51:10.891 [main] INFO  r.u.m.experiment.ExperimentRunner - Starting experiment series for 5 sample sizes
+2026-06-21 14:51:10.891 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000
+2026-06-21 14:51:10.893 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000, area=32.912, relError=0.3452365641199426, timeMs=0.7645
+2026-06-21 14:51:10.893 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000
+2026-06-21 14:51:10.894 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000, area=32.0848, relError=0.36169318523564453, timeMs=1.2772
+2026-06-21 14:51:10.894 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=100000
+2026-06-21 14:51:10.900 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=100000, area=31.77944, relError=0.36776812941346215, timeMs=5.9037
+2026-06-21 14:51:10.900 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000000
+2026-06-21 14:51:10.923 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000000, area=32.026984, relError=0.3628433980093697, timeMs=22.0961
+2026-06-21 14:51:10.924 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000000
+2026-06-21 14:51:11.080 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000000, area=31.9962016, relError=0.3634557943993987, timeMs=156.4088
+2026-06-21 14:51:11.080 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment series completed. Total results: 5
+2026-06-21 14:51:11.084 [main] INFO  ru.university.montecarlo.Main - Results exported to CSV: docs/experiment-results.csv
+2026-06-21 14:51:11.084 [main] INFO  ru.university.montecarlo.Main - Application finished successfully
+2026-06-21 14:53:05.383 [main] INFO  ru.university.montecarlo.Main - Application started
+2026-06-21 14:53:05.552 [main] INFO  ru.university.montecarlo.Main - Configuration loaded: AppConfig{figureType='DEBO', randomSeed=42, experimentSizes=[1000, 10000, 100000, 1000000, 10000000], geometry=GeometryConfig{dx=4.0, dy=0.0, ex=7.0, ey=8.0, bx=15.0, by=8.0, ox=15.0, oy=0.0, circleCenterX=7.0, circleCenterY=0.0, radius=8.0}, logging=LoggingConfig{level='INFO', file='logs/app.log'}, output=OutputConfig{exportCsv=true, csvPath='docs/experiment-results.csv'}}
+2026-06-21 14:53:05.558 [main] INFO  r.u.m.experiment.ExperimentRunner - Starting experiment series for 5 sample sizes
+2026-06-21 14:53:05.558 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000
+2026-06-21 14:53:05.561 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000, area=0.0, relError=1.0, timeMs=1.9405
+2026-06-21 14:53:05.561 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000
+2026-06-21 14:53:05.565 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000, area=0.0, relError=1.0, timeMs=4.0365
+2026-06-21 14:53:05.566 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=100000
+2026-06-21 14:53:05.579 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=100000, area=0.0, relError=1.0, timeMs=13.349
+2026-06-21 14:53:05.579 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000000
+2026-06-21 14:53:05.653 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000000, area=0.0, relError=1.0, timeMs=73.9348
+2026-06-21 14:53:05.654 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000000
+2026-06-21 14:53:06.203 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000000, area=0.0, relError=1.0, timeMs=548.6805
+2026-06-21 14:53:06.203 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment series completed. Total results: 5
+2026-06-21 14:53:06.207 [main] INFO  ru.university.montecarlo.Main - Results exported to CSV: docs/experiment-results.csv
+2026-06-21 14:53:06.207 [main] INFO  ru.university.montecarlo.Main - Application finished successfully
+2026-06-21 14:54:26.172 [main] INFO  ru.university.montecarlo.Main - Application started
+2026-06-21 14:54:26.341 [main] INFO  ru.university.montecarlo.Main - Configuration loaded: AppConfig{figureType='DEBO', randomSeed=42, experimentSizes=[1000, 10000, 100000, 1000000, 10000000], geometry=GeometryConfig{dx=4.0, dy=0.0, ex=7.0, ey=8.0, bx=15.0, by=8.0, ox=15.0, oy=0.0, circleCenterX=15.0, circleCenterY=0.0, radius=11.313708}, logging=LoggingConfig{level='INFO', file='logs/app.log'}, output=OutputConfig{exportCsv=true, csvPath='docs/experiment-results.csv'}}
+2026-06-21 14:54:26.347 [main] INFO  r.u.m.experiment.ExperimentRunner - Starting experiment series for 5 sample sizes
+2026-06-21 14:54:26.347 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000
+2026-06-21 14:54:26.351 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000, area=0.0, relError=1.0, timeMs=2.2826
+2026-06-21 14:54:26.351 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000
+2026-06-21 14:54:26.354 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000, area=0.0, relError=1.0, timeMs=3.3769
+2026-06-21 14:54:26.354 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=100000
+2026-06-21 14:54:26.367 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=100000, area=0.0, relError=1.0, timeMs=12.6897
+2026-06-21 14:54:26.367 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000000
+2026-06-21 14:54:26.449 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000000, area=0.0, relError=1.0, timeMs=81.5941
+2026-06-21 14:54:26.449 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000000
+2026-06-21 14:54:27.139 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000000, area=0.0, relError=1.0, timeMs=689.5785
+2026-06-21 14:54:27.140 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment series completed. Total results: 5
+2026-06-21 14:54:27.161 [main] INFO  ru.university.montecarlo.Main - Results exported to CSV: docs/experiment-results.csv
+2026-06-21 14:54:27.162 [main] INFO  ru.university.montecarlo.Main - Application finished successfully
+2026-06-21 14:56:42.943 [main] INFO  ru.university.montecarlo.Main - Application started
+2026-06-21 14:56:43.114 [main] INFO  ru.university.montecarlo.Main - Configuration loaded: AppConfig{figureType='DEBO', randomSeed=42, experimentSizes=[1000, 10000, 100000, 1000000, 10000000], geometry=GeometryConfig{dx=4.0, dy=0.0, ex=7.0, ey=7.549, bx=15.0, by=8.0, ox=15.0, oy=0.0, circleCenterX=15.0, circleCenterY=0.0, radius=11.0}, logging=LoggingConfig{level='INFO', file='logs/app.log'}, output=OutputConfig{exportCsv=true, csvPath='docs/experiment-results.csv'}}
+2026-06-21 14:56:43.118 [main] INFO  r.u.m.experiment.ExperimentRunner - Starting experiment series for 5 sample sizes
+2026-06-21 14:56:43.118 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000
+2026-06-21 14:56:43.121 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000, area=36.256, relError=0.5337455251359479, timeMs=1.9565
+2026-06-21 14:56:43.121 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000
+2026-06-21 14:56:43.126 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000, area=34.1792, relError=0.5604533057349567, timeMs=4.351
+2026-06-21 14:56:43.127 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=100000
+2026-06-21 14:56:43.139 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=100000, area=33.72688, relError=0.5662701698145713, timeMs=13.1663
+2026-06-21 14:56:43.139 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000000
+2026-06-21 14:56:43.209 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000000, area=33.727847999999994, relError=0.5662577212727667, timeMs=68.6213
+2026-06-21 14:56:43.209 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000000
+2026-06-21 14:56:43.818 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000000, area=33.716839199999995, relError=0.5663992951436538, timeMs=609.068
+2026-06-21 14:56:43.819 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment series completed. Total results: 5
+2026-06-21 14:56:43.822 [main] INFO  ru.university.montecarlo.Main - Results exported to CSV: docs/experiment-results.csv
+2026-06-21 14:56:43.823 [main] INFO  ru.university.montecarlo.Main - Application finished successfully
+2026-06-21 14:58:29.329 [main] INFO  ru.university.montecarlo.Main - Application started
+2026-06-21 14:58:29.525 [main] INFO  ru.university.montecarlo.Main - Configuration loaded: AppConfig{figureType='DEBO', randomSeed=42, experimentSizes=[1000, 10000, 100000, 1000000, 10000000], geometry=GeometryConfig{dx=4.0, dy=0.0, ex=7.0, ey=7.549, bx=15.0, by=8.0, ox=15.0, oy=0.0, circleCenterX=15.0, circleCenterY=0.0, radius=11.0}, logging=LoggingConfig{level='INFO', file='logs/app.log'}, output=OutputConfig{exportCsv=true, csvPath='docs/experiment-results.csv'}}
+2026-06-21 14:58:29.530 [main] INFO  r.u.m.experiment.ExperimentRunner - Starting experiment series for 5 sample sizes
+2026-06-21 14:58:29.530 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000
+2026-06-21 14:58:29.533 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000, area=36.256, relError=3.6494564863294736E-4, timeMs=2.1409
+2026-06-21 14:58:29.533 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000
+2026-06-21 14:58:29.538 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000, area=34.1792, relError=0.056937512403084825, timeMs=4.3397
+2026-06-21 14:58:29.538 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=100000
+2026-06-21 14:58:29.550 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=100000, area=33.72688, relError=0.06941779352112845, timeMs=12.2883
+2026-06-21 14:58:29.551 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=1000000
+2026-06-21 14:58:29.622 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=1000000, area=33.727847999999994, relError=0.06939108474830794, timeMs=71.0013
+2026-06-21 14:58:29.622 [main] INFO  r.u.m.experiment.ExperimentRunner - Running experiment for N=10000000
+2026-06-21 14:58:30.233 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment completed: N=10000000, area=33.716839199999995, relError=0.06969483633738713, timeMs=610.8569
+2026-06-21 14:58:30.233 [main] INFO  r.u.m.experiment.ExperimentRunner - Experiment series completed. Total results: 5
+2026-06-21 14:58:30.237 [main] INFO  ru.university.montecarlo.Main - Results exported to CSV: docs/experiment-results.csv
+2026-06-21 14:58:30.238 [main] INFO  ru.university.montecarlo.Main - Application finished successfully

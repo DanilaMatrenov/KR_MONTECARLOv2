@@ -1,0 +1,36 @@
+{
+  "figureType": "DEBO",
+  "randomSeed": 42,
+  "experimentSizes": [
+    1000,
+    10000,
+    100000,
+    1000000,
+    10000000
+  ],
+  "geometry": {
+    "dx": 4.0,
+    "dy": 0.0,
+
+    "ex": 7.0,
+    "ey": 7.549,
+
+    "bx": 15.0,
+    "by": 8.0,
+
+    "ox": 15.0,
+    "oy": 0.0,
+
+    "circleCenterX": 15.0,
+    "circleCenterY": 0.0,
+    "radius": 11.0
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/app.log"
+  },
+  "output": {
+    "exportCsv": true,
+    "csvPath": "docs/experiment-results.csv"
+  }
+}
