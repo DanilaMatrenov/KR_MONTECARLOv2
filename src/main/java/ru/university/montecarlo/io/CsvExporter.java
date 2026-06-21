@@ -10,10 +10,10 @@ public class CsvExporter {
 
     public void export(List<ExperimentResult> results, String path) throws IOException {
         try (FileWriter writer = new FileWriter(path)) {
-            writer.write("N,Estimated,Exact,AbsError,RelError,AccuracyPercent,TimeMs\n");
+            writer.write("N;Estimated;Exact;AbsError;RelError;AccuracyPercent;TimeMs\n");
             for (ExperimentResult r : results) {
                 writer.write(String.format(
-                        "%d,%.6f,%.6f,%.6f,%.6f,%.2f,%.2f%n",
+                        "%d;%.6f;%.6f;%.6f;%.6f;%.2f;%.2f%n",
                         r.getSampleCount(),
                         r.getEstimatedArea(),
                         r.getExactArea(),
